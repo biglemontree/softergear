@@ -45,7 +45,7 @@ router.map({
 });
 //设置默认情况下打开的页面
 router.redirect({
-    '/': 'index'
+    '/': '/index'
 });
 router.beforeEach(({to, from, next}) => {
     let toPath = to.path
